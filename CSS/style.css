@@ -82,7 +82,7 @@ a.active,a:hover{
 	width:100%;	
 }
 
-@media (min-width: 300px){
+@media (min-width: 100px){
 	#fixed{
 		position:fixed;
 		margin:0 0 0 0;
@@ -105,7 +105,7 @@ a.active,a:hover{
 }
 
 
-@media (max-width: 300px){
+@media (max-width: 100px){
 	.checkbtn{
 		display:block;
 		
