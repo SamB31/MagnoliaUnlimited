@@ -72,9 +72,11 @@ a.active,a:hover{
 	margin-top: 11px
 }
 .mySlides{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 	margin-top: 0px ;
-	height:550px;
-	width:100% !important;
+	object-fit: cover;
 }
 
 
