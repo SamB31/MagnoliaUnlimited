@@ -117,7 +117,7 @@ a.active,a:hover{
 	.menu-bar ul{
 		position: absolute;
 		right: -120%;
-		width: 100%;
+
 		height: 35vh;
 		text-align: center;
 		background-color:black;
@@ -150,14 +150,9 @@ a.active,a:hover{
 	
 	}
 	#check:checked~ul{
-		right: 0;
-		
-		
+		right: 0;	
 	}
 
-	#check:unchecked~ul{
-		display: none !important;}
-}
 
 	
 	
