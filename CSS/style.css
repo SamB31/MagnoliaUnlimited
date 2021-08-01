@@ -119,8 +119,8 @@ a.active,a:hover{
 	}
 	.menu-bar ul{
 		position: absolute;
-		left: -100%;
-                width:100% !important;
+		left: -120%;
+                width: 100% !important;
 		height: 35vh;
 		text-align: center;
 		background-color:black;
