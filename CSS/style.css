@@ -97,10 +97,10 @@ a.active,a:hover{
 	}
 	
 	.menu-bar ul li{
-		line-height:27px
+		line-height:27px;
 	}
 	.mySlides{
-		margin-top: 80px
+		margin-top: 80px;
 	}
 }
 
@@ -112,13 +112,13 @@ a.active,a:hover{
 	}
 	.menu-bar{
 		
-		background-color:black
+		background-color:black;
                 
 	}
 	.menu-bar ul{
 		position: absolute;
-		right: -10000px;
-                width:100%
+		right: -10000000px;
+                width:100%;
 		height: 35vh;
 		text-align: center;
 		background-color:black;
