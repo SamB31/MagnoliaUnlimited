@@ -116,7 +116,7 @@ a.active,a:hover{
                 width:100%;
 	}
 	.menu-bar ul{
-		position: absolute;
+		position: relative;
 		right: -120%;
 
 		height: 35vh;
