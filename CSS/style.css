@@ -700,7 +700,7 @@ a {text-decoration: none;}
 	}
 .tabs{
 	color:white;
-	font-weight:500;
+	font-weight:400;
 	line-height: 0px;
 }
 .pgs{
@@ -708,13 +708,13 @@ a {text-decoration: none;}
 	line-height: 6px}
 .tab{
 	color:white;
-	font-weight:500;
+	font-weight:400;
 	line-height:0px;
 	width:22em;
 }
 #bottom-tag{
 	color: white;
-	font-weight:500;
+	font-weight:400;
 	background-color: #303030;
 	display:flex; 
 	justify-content: center;
