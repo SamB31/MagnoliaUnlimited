@@ -111,7 +111,8 @@ a.active,a:hover{
 		
 	}
 	.menu-bar{
-		
+		display:relative;
+                Overflow:hidden;
 		background-color:black;
                 
 	}
