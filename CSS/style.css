@@ -26,6 +26,7 @@ body{
 .menu-bar{
 	
 	height: 60px;
+        width:100%;
 	
 }
 
@@ -111,7 +112,8 @@ a.active,a:hover{
 		
 	}
 	.menu-bar{
-                Overflow:hidden;
+                width:100% !important;
+                Overflow:hidden !important;
 		background-color:black;
                 
 	}
