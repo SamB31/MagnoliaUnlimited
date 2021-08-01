@@ -568,7 +568,7 @@ a.active,a:hover{
 	padding-top: 4px;
 	padding-bottom: 4px;
 	padding-right: 0px;
-	font-weight: 100;
+	font-weight: 300;
 	display:flex;
 	align-content: center;
 	align-items:center ;
@@ -622,7 +622,7 @@ a {text-decoration: none;}
 	padding-top: 4px;
 	padding-bottom: 4px;
 	padding-right: 0px;
-	font-weight: 100;
+	font-weight: 300;
 	align-items:center ;
 	height:20px;
 	background: #408bd1;
