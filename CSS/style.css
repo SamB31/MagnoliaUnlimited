@@ -153,7 +153,7 @@ a.active,a:hover{
 	
 	}
 	#check:checked~ul{
-		left: -7.5%;	
+		left: -8%;	
 	}
 
 
@@ -161,7 +161,7 @@ a.active,a:hover{
 	
 
 
-.scrolling-pictures{
+. scrolling-pictures{
 	border-bottom: solid #C2C2C2;
 	border-width: .6px;
 	margin-top: 0px;
