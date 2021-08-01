@@ -111,8 +111,9 @@ a.active,a:hover{
 		
 	}
 	.menu-bar{
-		overflow:hidden;
+		overflow-x: hidden;
 		background-color:black
+                width:100%;
 	}
 	.menu-bar ul{
 		position: absolute;
