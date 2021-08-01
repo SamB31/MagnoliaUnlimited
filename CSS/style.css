@@ -93,7 +93,7 @@ a.active,a:hover{
 	.menu-bar{
 		background-color:black;
 		margin-right:0;
-		overflow-x:hidden;
+		
 	}
 	
 	.menu-bar ul li{
@@ -111,14 +111,13 @@ a.active,a:hover{
 		
 	}
 	.menu-bar{
-		overflow-x: hidden;
+		
 		background-color:black
-                width:100%;
+                
 	}
 	.menu-bar ul{
 		position: absolute;
 		right: -120%;
-                
 		height: 35vh;
 		text-align: center;
 		background-color:black;
