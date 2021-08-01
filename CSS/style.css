@@ -1,7 +1,7 @@
 
 body{
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	overflow-x: hidden;
+	overflow-x: hidden !important;
 	
 	
 }
@@ -33,6 +33,7 @@ body{
 	float: right;
 	list-style: none;
 	margin-right: 30px;
+        overflow-x: hidden;
 	
 }
 .menu-bar ul li {
@@ -93,7 +94,7 @@ a.active,a:hover{
 	.menu-bar{
 		background-color:black;
 		margin-right:0;
-		overflow:hidden;
+		overflow-x:hidden;
 	}
 	
 	.menu-bar ul li{
@@ -124,7 +125,7 @@ a.active,a:hover{
 		padding-top: 10px;
 		margin-right:0;
 		margin-top: 5px;
-		overflow:hidden;
+		overflow-x:hidden;
 		border-top:thin solid #334AA7;
 		border-bottom:thin solid #334AA7;
 		
@@ -133,7 +134,7 @@ a.active,a:hover{
 	}
 	.menu-bar ul li{
 		display:block;
-		overflow:hidden;
+		overflow-x:hidden;
 		color:white;
 	}
 	.menu-bar ul li a{
