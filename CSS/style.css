@@ -33,7 +33,7 @@ body{
 .menu-bar ul{
 	float: right;
 	list-style: none;
-
+        margin-right: 30px;
 	
 }
 .menu-bar ul li {
@@ -153,7 +153,7 @@ a.active,a:hover{
 	
 	}
 	#check:checked~ul{
-		left: 0;	
+		left: 20%;	
 	}
 
 
