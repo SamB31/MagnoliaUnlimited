@@ -48,7 +48,7 @@ body{
 	color:white;
 	padding: 1px 1px 18px
 }
-a.active,a:hover{
+.menu-bar a.active,a:hover{
 	color: white;
 	border-bottom: thick solid #334AA7;
 	
