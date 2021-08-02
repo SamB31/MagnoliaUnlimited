@@ -388,7 +388,7 @@ a.active,a:hover{
 #insta3{
 	margin:auto;
 	width:100%;
-	height: auto;
+	height: 100%;
 	grid-area:c;
 }
 #insta4{
@@ -628,21 +628,18 @@ a {text-decoration: none;}
 
 @media only screen and (min-width:1000px ) {
   #social-tot { 
-	  display:grid;
-	  grid-column-gap: 10px;
-	  grid-template-areas: 
-		  "a b"
+	  
+	  
 	}
 	#insta-tot{
-		grid-area:a;
+		float:left;
 		
 		
 	}
 	#twitter-tot{
-		grid-area:b;
-		transform: translate(0%, -13%);
-	
-		
+		width: 50%;
+		float:right;
+		transform: translate(0%, -10%);
 	}
 	
 	#instagrid{
@@ -658,7 +655,7 @@ a {text-decoration: none;}
 	background-color:#71A7DA;}
 
 	.twitter-timeline{
-		height: 38.5vw !important;
+		height: 35.5vw !important;
 	}
 	.Insta{
 		padding-left:130px;
