@@ -350,7 +350,7 @@ a.active,a:hover{
 
 #instagrid{
 	display:grid;
-	
+	text-decoration:none;
 	grid-column-gap: 10px;
 	grid-row-gap:10px;
 	padding-left:15%;
