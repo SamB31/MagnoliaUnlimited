@@ -350,7 +350,6 @@ body{
 
 #instagrid{
 	display:grid;
-	
 	grid-column-gap: 10px;
 	grid-row-gap:10px;
 	padding-left:15%;
@@ -367,8 +366,8 @@ body{
 	
 		
 }
-#instagrid a{
-	text-decoration:none !important;
+.link2{
+	border-bottom:none !important;
 }
 
 #insta1{
@@ -524,8 +523,8 @@ body{
 
 	
 }
-	.btn{
-		padding-top:20px;
+.btn{
+	padding-top:20px;
 	}
 }
 
