@@ -120,12 +120,11 @@ a.active,a:hover{
 	.menu-bar ul{
 		position: absolute;
 		left: -110%;
-                width: 100% !important;
-		height: 27vh;
+        width: 100% !important;
+		height: 205px;
 		text-align: center;
 		background-color:black;
 		padding-top: 10px;
-		
 		margin-top: 3px;
 		border-top:thin solid #334AA7;
 		border-bottom:thin solid #334AA7;
@@ -156,16 +155,6 @@ a.active,a:hover{
 		left: -8%;	
 	}
 
-
-	
-	
-
-
-. scrolling-pictures{
-	border-bottom: solid #C2C2C2;
-	border-width: .6px;
-	margin-top: 0px;
-}
 
 
  h1{
@@ -371,7 +360,10 @@ a.active,a:hover{
 	margin-bottom: 20px;
 	margin-right:auto;
 	margin-left: auto;
-	
+	grid-template-areas: 
+		"a b c"
+		"d e f"
+		"g h i";
 	
 		
 }
@@ -383,66 +375,57 @@ a.active,a:hover{
 	margin:auto;
 	width:100%;
 	height: auto;
-	grid-column: 1;
-	grid-row: 1;
+	grid-area:a;
 	
 }
 #insta2{
 	margin:auto;
 	width:100%;
 	height: auto;
-	grid-column: 2;
-	grid-row: 1;
+	grid-area:b;
 	
 }
 #insta3{
 	margin:auto;
 	width:100%;
 	height: 100%;
-	grid-column: 3;
-	grid-row: 1;
+	grid-area:c;
 }
 #insta4{
 	margin:auto;
 	width:100%;
 	height: auto;
-	grid-column: 1;
-	grid-row: 2;
+	grid-area:d;
 }
 #insta5{
 	margin:auto;
 	width:100%;
 	height: auto;
-	grid-column: 2;
-	grid-row: 2;
+	grid-area:e;
 }
 #insta6{
 	margin:auto;
 	width:100%;
 	height: auto;
-	grid-column: 3;
-	grid-row: 2;
+	grid-area:f;
 }
 #insta7{
 	margin:auto;
 	width:100%;
 	height: auto;
-	grid-column: 1;
-	grid-row: 3;
+	grid-area:g;
 }
 #insta8{
 	margin:auto;
 	width:100%;
 	height: auto;
-	grid-column: 2;
-	grid-row: 3;
+	grid-area:h;
 }
 #insta9{
 	margin:auto;
 	width:100%;
 	height: auto;
-	grid-column: 3;
-	grid-row: 3;
+	grid-area:i;
 }
 #twitter-head{
 	display:grid;
@@ -473,73 +456,70 @@ a.active,a:hover{
 	grid-template-row: 300px 300px;
 	padding-bottom:25px;
 	margin-bottom: 1px;
+	grid-template-areas: 
+		"a b"
+		"c d"
+		"e f"
+		"g h"
+		"i .";
   }
 
-	#insta1{
+#insta1{
 	
 	margin:auto;
 	width:100%;
 	height: auto;
-	grid-column: 1;
-	grid-row: 1;
+	grid-area:a;
 	
 }
 #insta2{
 	margin:auto;
 	width:100%;
 	height: auto;
-	grid-column: 2;
-	grid-row: 1;
+	grid-area:b;
 	
 }
 #insta3{
 	margin:auto;
 	width:100%;
 	height: 100%;
-	grid-column: 1;
-	grid-row: 2;
+	grid-area:c;
 }
 #insta4{
 	margin:auto;
 	width:100%;
 	height: auto;
-	grid-column: 2;
-	grid-row: 2;
+	grid-area:d;
 }
 #insta5{
 	margin:auto;
 	width:100%;
 	height: auto;
-	grid-column: 1;
-	grid-row: 3;
+	grid-area:e;
 }
 #insta6{
 	margin:auto;
 	width:100%;
 	height: auto;
-	grid-column: 2;
-	grid-row: 3;
+	grid-area:f;
 }
 #insta7{
 	margin:auto;
 	width:100%;
 	height: auto;
-	grid-column: 1;
-	grid-row: 4;
+	grid-area:g;
 }
 #insta8{
 	margin:auto;
 	width:100%;
 	height: auto;
-	grid-column: 2;
-	grid-row: 4;
+	grid-area:h;
 }
 #insta9{
 	margin:auto;
 	width:100%;
 	height: auto;
-	grid-column: 1;
-	grid-row: 5;
+	grid-area:i;
 
 	
 }
@@ -555,7 +535,6 @@ a.active,a:hover{
 	background-color:#71A7DA;
 }
 .btn{
-	
 	
 	text-align:center;
 	margin-bottom: 40px;
@@ -625,6 +604,7 @@ a {text-decoration: none;}
 	height:20px;
 	background: #408bd1;
 	border-radius: 5px;
+	margin-top: 20px;
 	
 }
 #twitter-text{
@@ -650,23 +630,21 @@ a {text-decoration: none;}
   #social-tot { 
 	  display:grid;
 	  grid-column-gap: 10px;
+	  grid-template-areas: 
+		  "a b"
 	}
 	#insta-tot{
-		grid-row:1;
-		grid-column:1;
+		grid-area:a;
 		
 		
 	}
 	#twitter-tot{
-		grid-row:1;
-		grid-column:2;
+		grid-area:b;
 		transform: translate(0%, -13%);
 	
 		
 	}
-	.twitter-timeline{
 	
-	}
 	#instagrid{
 		padding-left:130px;
 		width: 35vw;
@@ -676,9 +654,9 @@ a {text-decoration: none;}
 		transform: translate(35%, -20%);
 		
 	}
-	#twitter-btn{
-		
-	}
+	#twitter-btn:hover{
+	background-color:#71A7DA;}
+
 	.twitter-timeline{
 		height: 38.5vw !important;
 	}
